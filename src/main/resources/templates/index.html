@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.springframework.org/schema/mvc">
+<head>
+    <title>N11 Code</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script  type="text/javascript" th:src="@{/js/src/index.js}" ></script>
+</head>
+<body>
+    <div>
+        <form class="calculateForm" autocomplete="off" >
+            <div class="calculateFormField">
+                <div>
+                    <input type="text" id="intInputID" name="intInput" value="" maxlength="9"/>
+                </div>
+                <div>
+                    <div id="errorText"></div>
+                </div>
+            </div>
+        </form>
+
+        <div>
+            <input type="submit" id="submitButton" value="Giriş Yap"/>
+        </div>
+
+        <div>
+            <label id="labelID"></label>
+        </div>
+    </div>
+</body>
+</html>
